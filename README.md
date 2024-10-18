@@ -30,6 +30,10 @@ This repository contains two JavaScript implementations of a blockchain:
 2. Install dependencies using `npm install`.
 3. Run the scripts to simulate blockchain creation and mining.
 
+## Output Screenshot (of blockchain-with-nonce.js)
+![blockchain-with-nonce Output](output.jpg)
+
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
