@@ -1,0 +1,25 @@
+Code Explanation:
+
+Block Class:
+    Constructor: Initializes the block with an index, timestamp, data, previous hash, and computes its hash.
+
+    calculateHash Method: Generates a SHA256 hash based on the block's properties.
+
+BlockChain Class:
+
+    Constructor: Initializes the blockchain and adds the genesis block.
+
+    createGenesisBlock Method: Creates the first block of the blockchain with a predetermined index and previous hash.
+
+    getLatestBlock Method: Returns the last block in the chain.
+
+    addBlock Method: Adds a new block to the chain after setting its previous hash and calculating its hash.
+
+    isChainValid Method: Validates the blockchain by checking the hashes of each block and their relationships to ensure the chain's integrity.
+
+Example Usage:
+
+    At the end of the script, there’s an example of how to create a blockchain instance, add blocks, and check if the blockchain is valid.
+
+
+
